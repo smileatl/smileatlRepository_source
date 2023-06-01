@@ -8,16 +8,16 @@ tagline: smileatl个人知识库，不止所措，才是人生。
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
-  - title: 编程语言
-    details: C/C++，Python，Java
+  - title: 工作
+    details: 编程语言，计算机知识，工具
     link: /web/ # 可选
     imgUrl: /img/web.png # 可选
-  - title: 计算机知识
-    details: 操作系统，计网，数据结构与算法，数据库
+  - title: 学习
+    details: 科研，阅读
     link: /ui/
     imgUrl: /img/ui.png
-  - title: 工具
-    details: Git
+  - title: 生活
+    details: 生活
     link: /technology/
     imgUrl: /img/other.png
 

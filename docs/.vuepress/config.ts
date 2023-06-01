@@ -31,30 +31,36 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '编程语言',
+        text: '工作',
         link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          { text: '《JavaScript教程》', link: '/note/javascript/' },
-          { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-          { text: '《ES6 教程》', link: '/note/es6/' },
-          { text: '《Vue》', link: '/note/vue/' },
-          { text: '《React》', link: '/note/react/' },
           {
-            text: '《TypeScript 从零实现 axios》',
-            link: '/note/typescript-axios/',
+            text: '编程语言',
+            items: [
+              { text: 'C', link: '/pages/8143cc480faf9a11/' },
+              { text: 'C++', link: '/pages/8143cc480faf9a11/' },
+              { text: 'python', link: '/pages/8143cc480faf9a11/' },
+              { text: 'Java', link: '/pages/8143cc480faf9a11/' },
+              { text: '脚本语言', link: '/pages/8143cc480faf9a11/' },
+            ],
           },
           {
-            text: '《Git》',
-            link: '/note/git/',
+            text: '计算机知识',
+            items: [
+              { text: 'Linux', link: '/note/vue/' },
+              { text: '数据机构与算法基础', link: '/note/javascript/' },
+              { text: '计算机网络', link: '/note/js/' },
+              { text: '操作系统', link: '/note/es6/' },
+              { text: '数据库', link: '/note/react/' },
+            ],
           },
           {
-            text: 'TypeScript',
-            link: '/pages/51afd6/',
-          },
-          {
-            text: 'JS设计模式总结',
-            link: '/pages/4643cd/',
+            text: '工具',
+            items: [
+              { text: 'Git', 
+                link: '/note/git/' },
+            ],
           },
         ],
       },
