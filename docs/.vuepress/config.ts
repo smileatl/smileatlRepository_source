@@ -39,7 +39,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '编程语言',
             items: [
               { text: 'C', link: '/work/language/cpp/test/' },
-              { text: 'C++', link: '/work/language/C++/myC++/' },
+              { text: 'C++', link: '/pages/4dfbe3/' },
               { text: 'python', link: '/pages/8143cc480faf9a11/' },
               { text: 'Java', link: '/pages/8143cc480faf9a11/' },
               { text: '脚本语言', link: '/pages/8143cc480faf9a11/' },
