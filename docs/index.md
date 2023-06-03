@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Smileatl Repository
+heroText: smileatl Repository
 tagline: smileatl个人知识库，不止所措，才是人生。
 # actionText: 立刻进入 →
 # actionLink: /web/
