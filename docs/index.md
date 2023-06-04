@@ -2,9 +2,9 @@
 home: true
 # heroImage: /img/web.png
 heroText: smileatl Repository
-tagline: smileatl个人知识库，不止所措，才是人生。
+tagline: smileatl个人知识库，在广袤的空间和无限的时间中，能与和你共享同一颗行星和同一段时光是我的荣幸。
 # actionText: 立刻进入 →
-# actionLink: /web/
+# actionLink: /work/
 bannerBg: /img/bg.jpg # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
@@ -26,7 +26,6 @@ features: # 可选的
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 # hideRightBar: true # 是否隐藏右侧边栏
 ---
-
 
 <!-- 小熊猫 -->
 <!-- <img src="/img/panda-waving.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;"> -->

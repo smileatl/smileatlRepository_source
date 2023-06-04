@@ -23,7 +23,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     }
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
-  base: '/smileatlRepository/',
+  // base: '/smileatlRepository/',
 
   // 主题配置
   themeConfig: {
@@ -40,7 +40,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: 'C', link: '/pages/d39406/' },
               { text: 'C++', link: '/pages/54c009/' },
-              // { text: 'python', link: '/pages/8143cc480faf9a11/' },
+              // { text: 'python', link: '/pdf/test.pdf' },
               // { text: 'Java', link: '/pages/8143cc480faf9a11/' },
               // { text: '脚本语言', link: '/pages/8143cc480faf9a11/' },
             ],
@@ -48,8 +48,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '计算机知识',
             items: [
-              { text: 'Linux', link: '/note/vue/' },
-              { text: '数据机构与算法基础', link: '/note/javascript/' },
+              { text: 'Linux', link: '/pages/6a08ae/' },
+              { text: '数据机构与算法基础', link: '/note/test/' },
               { text: '计算机网络', link: '/note/js/' },
               { text: '操作系统', link: '/note/es6/' },
               { text: '数据库', link: '/note/react/' },
