@@ -40,7 +40,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: 'C', link: '/pages/d39406/' },
               { text: 'C++', link: '/pages/54c009/' },
-              { text: 'python', link: '/note/qingDaWangzhuo/' },
+              // { text: 'python', link: '/note/qingDaWangzhuo/' },
               // { text: 'Java', link: '/pages/8143cc480faf9a11/' },
               // { text: '脚本语言', link: '/pages/8143cc480faf9a11/' },
             ],
