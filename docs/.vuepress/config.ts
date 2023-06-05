@@ -40,7 +40,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: 'C', link: '/pages/d39406/' },
               { text: 'C++', link: '/pages/54c009/' },
-              // { text: 'python', link: '/pdf/test.pdf' },
+              { text: 'python', link: '/note/qingDaWangzhuo/' },
               // { text: 'Java', link: '/pages/8143cc480faf9a11/' },
               // { text: '脚本语言', link: '/pages/8143cc480faf9a11/' },
             ],
@@ -49,7 +49,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '计算机知识',
             items: [
               { text: 'Linux', link: '/pages/6a08ae/' },
-              { text: '数据机构与算法基础', link: '/note/test/' },
+              { text: '数据机构与算法基础', link: '/note/qingDaWangzhuo/' },
               { text: '计算机网络', link: '/note/js/' },
               { text: '操作系统', link: '/note/es6/' },
               { text: '数据库', link: '/note/react/' },
@@ -66,7 +66,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '学习',
-        link: '/study/',
+        link: '/test/',
         items: [
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
