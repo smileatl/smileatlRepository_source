@@ -50,8 +50,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: 'Linux', link: '/pages/6a08ae/' },
               { text: '数据机构与算法基础', link: '/note/qingDaWangzhuo/' },
-              { text: '计算机网络', link: '/note/js/' },
               { text: '操作系统', link: '/note/es6/' },
+              { text: '计算机网络', link: '/note/js/' },
               { text: '数据库', link: '/note/react/' },
             ],
           },
@@ -59,14 +59,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '工具',
             items: [
               { text: 'Git', 
-                link: '/note/git/' },
+                link: '/note/Git/' },
             ],
           },
         ],
       },
       {
         text: '学习',
-        link: '/test/',
+        link: '/study/',
         items: [
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
