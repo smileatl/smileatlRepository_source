@@ -38,48 +38,70 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '编程语言',
             items: [
-              { text: 'C', link: '/pages/d39406/' },
-              { text: 'C++', link: '/pages/54c009/' },
+              { text: 'C', link: '/work/C/' },
+              { text: 'C++', link: '/work/C++/' },
+              { text: 'Script_Language', link: '/work/Script_Language/' },
               // { text: 'python', link: '/note/qingDaWangzhuo/' },
               // { text: 'Java', link: '/pages/8143cc480faf9a11/' },
-              // { text: '脚本语言', link: '/pages/8143cc480faf9a11/' },
             ],
           },
           {
             text: '计算机知识',
             items: [
-              { text: 'Linux', link: '/pages/6a08ae/' },
-              { text: '数据机构与算法基础', link: '/note/qingDaWangzhuo/' },
-              { text: '操作系统', link: '/note/es6/' },
-              { text: '计算机网络', link: '/note/js/' },
-              { text: '数据库', link: '/note/react/' },
+              { text: 'Linux', link: '/work/Linux/' },
+              { text: '数据机构与算法基础', link: '/work/dataStruct/' },
+              { text: '操作系统', link: '/work/OS/' },
+              { text: '计算机网络', link: '/work/network/' },
+            ],
+          },
+          {
+            text: '数据库',
+            link: '/work/',
+            items: [
+              { text: 'MySQL', link: '/work/MySQL/' },
             ],
           },
           {
             text: '工具',
             items: [
-              { text: 'Git', 
-                link: '/note/Git/' },
+              { text: 'Git', link: '/work/Git/' },
+              { text: '虚拟机', link: '/work/VM/' },
             ],
           },
+          {
+            text: '其他',
+            items: [
+              { text: '刷题', link: '/work/leetcode/' },
+            ],
+          },
+        ],
+      },
+      {
+        text: '项目',
+        link: '/project/',
+        items: [
+          { text: '项目1', link: '/pages/cef32a/' },
         ],
       },
       {
         text: '学习',
         link: '/study/',
         items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          { 
+            text: '研究生', 
+            items: [
+              { text: 'publications', link: '/study/publications/' },
+              { text: '机器学习', link: '/study/ML/' },
+              { text: '报销流程', link: '/study/reimburse/' },
+            ],
+          },
         ],
       },
       {
         text: '生活',
         link: '/life/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+          { text: '文档1', link: '/pages/9a7ee40fc232253e/' },
         ],
       },
       {
@@ -113,7 +135,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
     ],
-    sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/website_icon.png', // 导航栏logo
     repo: 'https://github.com/smileatl/smileatlRepository_source', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 15, // 搜索结果显示最大数
