@@ -6,7 +6,7 @@ import { defineConfig4CustomTheme, UserPlugins } from 'vuepress/config'
 import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
 import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
-import htmlModules from './config/htmlModules' // 自定义插入的html块
+// import htmlModules from './config/htmlModules' // 自定义插入的html块
 
 const DOMAIN_NAME = 'xugaoyi.com' // 域名 (不带https)
 const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
@@ -18,7 +18,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "smileatl个人知识库",
+      title: "smileatl Repository",
       description: 'smileatl个人知识库，用于工作、学习、生活的总结。',
     }
   },
@@ -77,27 +77,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '项目',
-        link: '/project/',
-        items: [
-          { text: '项目1', link: '/pages/cef32a/' },
-        ],
-      },
-      {
-        text: '收藏',
-        link: '/collection/',
-        items: [
-          {
-            text: '总览',
-            items: [
-              { text: '个人收藏夹', link: '/collection/favorites/' },
-              { text: '资源下载', link: '/collection/download/' },
-            ],
-          },
-  
-        ],
-      },
-      {
         text: '学习',
         link: '/study/',
         items: [
@@ -123,7 +102,33 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '生活', link: '/pages/71024e/' },
         ],
       },
-        
+      {
+        text: '项目',
+        link: '/project/',
+        items: [
+          { text: '项目1', link: '/pages/cef32a/' },
+        ],
+      },
+      {
+        text: '收藏',
+        link: '/collection/',
+        items: [
+          {
+            text: '总览',
+            items: [
+              { text: '个人收藏夹', link: '/collection/favorites/' },
+              { text: '资源下载', link: '/collection/download/' },
+            ],
+          },
+          {
+            text: '快速链接',
+            items: [
+              { text: 'SCI-HUB', link: 'https://sci-hub.wf/' },
+              { text: '文件转换、解密工具', link: '/collection/favorites/#文件转换、解密工具' },
+            ],
+          },
+        ],
+      },
       {
         text: '更多',
         link: '/more/',
@@ -143,7 +148,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
         ],
-      }, 
+      },
       { text: '关于', link: '/about/' }, 
     ],
     
@@ -240,7 +245,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
 
     // 自定义hmtl(广告)模块
-    htmlModules
+    // htmlModules
   },
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -292,19 +297,19 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'thirdparty-search',
       {
         thirdparty: [
-          {
-            title: '在MDN中搜索',
-            frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
-            behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
-          },
-          {
-            title: '在Runoob中搜索',
-            frontUrl: 'https://www.runoob.com/?s=',
-          },
-          {
-            title: '在Vue API中搜索',
-            frontUrl: 'https://cn.vuejs.org/v2/api/#',
-          },
+          // {
+          //   title: '在MDN中搜索',
+          //   frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
+          //   behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
+          // },
+          // {
+          //   title: '在Runoob中搜索',
+          //   frontUrl: 'https://www.runoob.com/?s=',
+          // },
+          // {
+          //   title: '在Vue API中搜索',
+          //   frontUrl: 'https://cn.vuejs.org/v2/api/#',
+          // },
           {
             title: '在Bing中搜索',
             frontUrl: 'https://cn.bing.com/search?q=',
