@@ -95,27 +95,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '报销流程', link: '/study/reimburse/' },
             ],
           },
+          { text: '阅读', 
+            items: [
+              { text: '个人摘抄', link: '/study/read/' },
+            ],
+          },
         ],
       },
       {
         text: '生活',
         link: '/life/',
         items: [
-          { text: '文档1', link: '/pages/9a7ee40fc232253e/' },
+          { text: '生活', link: '/pages/71024e/' },
         ],
       },
-      {
-        text: '更多',
-        link: '/more/',
-        items: [
-          { text: '学习', link: '/pages/f2a556/' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-          { text: '实用技巧', link: '/pages/baaa02/' },
-          { text: '友情链接', link: '/friends/' },
-        ],
-      },
-      { text: '关于', link: '/about/' },
       {
         text: '收藏',
         link: '/pages/beb6c0bd8a66cea6/',
@@ -124,18 +117,31 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
         //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
         // ],
-      },
+      },  
       {
-        text: '索引',
-        link: '/archives/',
+        text: '更多',
+        link: '/more/',
         items: [
-          { text: '分类', link: '/categories/' },
-          { text: '标签', link: '/tags/' },
-          { text: '归档', link: '/archives/' },
+          {
+            text: '索引',
+            items: [
+              { text: '分类', link: '/categories/' },
+              { text: '标签', link: '/tags/' },
+              { text: '归档', link: '/archives/' },
+            ],
+          },
+          {
+            text: '友链',
+            items: [
+              { text: '友情链接', link: '/friends/' },
+            ],
+          },
         ],
-      },
+      }, 
+      { text: '关于', link: '/about/' }, 
     ],
-    sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    
+    sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/website_icon.png', // 导航栏logo
     repo: 'https://github.com/smileatl/smileatlRepository_source', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 15, // 搜索结果显示最大数

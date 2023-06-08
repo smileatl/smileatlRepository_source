@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/web.png
 heroText: smileatl Repository
-tagline: smileatl个人知识库，在广袤的空间和无限的时间中，能与和你共享同一颗行星和同一段时光是我的荣幸。
+tagline: smileatl个人知识库，在广袤的空间和无限的时间中，能与你共享同一颗行星和同一段时光是我的荣幸。
 # actionText: 立刻进入 →
 # actionLink: /work/
 bannerBg: /img/bg.jpg # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
