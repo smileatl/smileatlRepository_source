@@ -18,7 +18,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "smileatl Repository",
+      title: "SAL Repo",
       description: 'smileatl个人知识库，用于工作、学习、生活的总结。',
     }
   },
