@@ -249,8 +249,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 设置Algolia搜索
     algolia:{
-      apiKey: 'smileatl-gitee',
-      indexName: 'b06054250196b2b7ed3bb2e6bfc7d0d9',
+      indexName: 'smileatl-gitee',
+      apiKey: 'b06054250196b2b7ed3bb2e6bfc7d0d9',
       appId: '81LYGQJPLQ',
     },
   },
