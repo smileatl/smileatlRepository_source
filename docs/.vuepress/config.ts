@@ -246,6 +246,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 自定义hmtl(广告)模块
     // htmlModules
+
+    // 设置Algolia搜索
+    algolia:{
+      apiKey: 'smileatl-gitee',
+      indexName: 'b06054250196b2b7ed3bb2e6bfc7d0d9',
+      appId: '81LYGQJPLQ',
+    },
   },
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -290,7 +297,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
 
     // 全文搜索。 ⚠️注意：此插件会在打开网站时多加载部分js文件用于搜索，导致初次访问网站变慢。如在意初次访问速度的话可以不使用此插件！（推荐：vuepress-plugin-thirdparty-search）
-    ['fulltext-search'],
+    // ['fulltext-search'],
+    
    
     // // 可以添加第三方搜索链接的搜索框（继承原官方搜索框的配置参数）
     // [
