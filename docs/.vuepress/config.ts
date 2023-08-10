@@ -82,6 +82,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: 'mynetlib', link: '/project/mynetlib/' },
           { text: 'mymprpc', link: '/project/mymprpc/' },
+          { text: 'mytinystl', link: '/project/mytinystl/' },
         ],
       },
       {
