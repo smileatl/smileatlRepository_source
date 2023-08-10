@@ -13,12 +13,12 @@ features: # 可选的
     link: /work/ # 可选
     # imgUrl: /img/web.png # 可选
   - title: 学习
-    details: 科研，阅读
+    details: 学习，科研，阅读
     link: /study/
     # imgUrl: /img/ui.png
-  - title: 生活
-    details: 生活
-    link: /life/
+  - title: 学习
+    details: 学习，科研，阅读
+    link: /study/
     # imgUrl: /img/other.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表

@@ -77,6 +77,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
+        text: '项目',
+        link: '/project/',
+        items: [
+          { text: 'mynetlib', link: '/project/mynetlib/' },
+          { text: 'mymprpc', link: '/project/mymprpc/' },
+        ],
+      },
+      {
         text: '学习',
         link: '/study/',
         items: [
@@ -102,13 +110,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '生活', link: '/pages/71024e/' },
         ],
       },
-      {
-        text: '项目',
-        link: '/project/',
-        items: [
-          { text: '项目1', link: '/pages/cef32a/' },
-        ],
-      },
+      
       {
         text: '收藏',
         link: '/collection/',
@@ -394,6 +396,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   markdown: {
     lineNumbers: true,
+    // extendMarkdown: (md) => {
+    //   md.set({ breaks: true });
+    // },
     extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
   },
 
