@@ -49,7 +49,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '计算机知识',
             items: [
               { text: 'Linux', link: '/work/Linux/' },
-              { text: '数据机构与算法基础', link: '/work/dataStruct/' },
+              { text: '数据机构与算法', link: '/work/dataStruct/' },
               { text: '操作系统', link: '/work/OS/' },
               { text: '计算机网络', link: '/work/network/' },
             ],
@@ -59,6 +59,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             link: '/work/',
             items: [
               { text: 'MySQL', link: '/work/MySQL/' },
+              { text: 'Redis', link: '/work/Redis/' },
             ],
           },
           {
@@ -72,6 +73,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '其他',
             items: [
               { text: '刷题', link: '/work/leetcode/' },
+              { text: '背书', link: '/work/bg/' },
             ],
           },
         ],
@@ -83,6 +85,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'mynetlib', link: '/project/mynetlib/' },
           { text: 'mymprpc', link: '/project/mymprpc/' },
           { text: 'mytinystl', link: '/project/mytinystl/' },
+          { text: 'DML', link: '/project/DML/' },
+          { text: 'FL', link: '/project/FL/' },
         ],
       },
       {
