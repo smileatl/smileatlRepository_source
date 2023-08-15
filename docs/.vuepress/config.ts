@@ -260,7 +260,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       apiKey: 'b06054250196b2b7ed3bb2e6bfc7d0d9',
       appId: '81LYGQJPLQ',
       algoliaOptions:{
-        hitsPerPage: 10,
+        hitsPerPage: 12,
       },
     },
   }, 
